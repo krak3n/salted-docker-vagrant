@@ -78,3 +78,10 @@ Last stable version: 0.6.3
 ```
 
 Now give ``docker run -i -t ubuntu /bin/bash`` a try ;)
+
+## Credits
+
+Thanks to these articles:
+
+https://coderwall.com/p/r6ivdq
+https://www.digitalocean.com/community/articles/how-to-install-docker-on-ubuntu-13-04-x64-vps
