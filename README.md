@@ -1,12 +1,10 @@
-Salted Vagrant Docker
-=====================
+# Salted Vagrant Docker
 
 This will automatically install [Docker](http://docker.io) using [Salt](http://saltstack.com/).
 Docker will be automatically configured to accecept connections from anywhere which means
 you can alias ``docker`` on OSX to talk directly with ``docker`` on the ``Vagrant`` virtual machine.
 
-Dependencies
-------------
+## Dependencies
 
 For this to work you need the following installed.
 
@@ -15,25 +13,23 @@ For this to work you need the following installed.
 * Vagrant ``vagrant-vbguest`` plugin: ``vagrant plugin install vagrant-vbguest``
 * Vagrant ``vagrant-salt`` plugin: ``vagrant plugin install vagrant-salt``
 
-Usage
------
+## Usage
 
 Clone the repo and ``vagrant up``
 
-OSX Docker Alias
-----------------
+## OSX Docker Alias
 
 We have to install docker on OSX, obviously it won't work as docker does not yet support OSX, however we
 still need the docker binary so we can connect to docker running on ``Vagrant``.
 
-1. Install Go Using [HomeBrew](http://brew.sh/)
+### Install Go Using [HomeBrew](http://brew.sh/)
 
 ```
 brew update
 brew install go
 ```
 
-2. Install Docker on OSX
+### Install Docker on OSX
 
 Follow these steps to install ``docker`` binary on OSX.
 
@@ -59,7 +55,7 @@ Go version (client): go1.1.2
 
 Seeing as we don't have docker running on OSX this is totally expected,
 
-3. Alias Docker on OSX
+### Alias Docker on OSX
 
 All we need to do now is just create an alias on OSX, add this to your ``~/.bashrc``
 or ``~/.zshrc`` etc.
