@@ -37,7 +37,7 @@ Vagrant.configure("2") do |config|
     #
 
     config.vm.provision :salt do |salt|
-        salt.run_highstate = false
+        salt.run_highstate = true
         salt.minion_config = "provisioner/config/minion.conf"
         salt.install_type = "stable"
     end
