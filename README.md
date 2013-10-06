@@ -17,6 +17,8 @@ For this to work you need the following installed.
 
 Clone the repo and ``vagrant up``
 
+**Note: You will need to reload the vagrant instance after the initial creation.**
+
 ## OSX Docker Alias
 
 We have to install docker on OSX, obviously it won't work as docker does not yet support OSX, however we
