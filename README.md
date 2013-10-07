@@ -15,9 +15,7 @@ For this to work you need the following installed.
 
 ## Usage
 
-Clone the repo and ``vagrant up``
-
-**Note: You will need to reload the vagrant instance after the initial creation.**
+Clone the repo and ``vagrant up && vagrant reload``
 
 ## OSX Docker Alias
 
